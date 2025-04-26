@@ -1,0 +1,77 @@
+/* 기본 폰트, 색상, 배경 정리 */
+:root {
+  font-family: 'Pretendard', 'Noto Sans KR', system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color: #333;
+  background-color: #f9f9f9;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* 링크 스타일 */
+a {
+  font-weight: 500;
+  color: #6a5acd;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #483d8b;
+}
+
+/* 전체 body 정리 */
+body {
+  margin: 0;
+  padding: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: #f9f9f9;
+}
+
+/* 제목(h1) 기본 스타일 */
+h1 {
+  font-size: 2.5em;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+
+/* 버튼 기본 스타일 */
+button {
+  border-radius: 8px;
+  border: none;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #a9a3f5;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.25s;
+}
+
+button:hover {
+  background-color: #8880e6;
+}
+
+/* 작은 텍스트 안내 */
+.read-the-docs {
+  color: #888;
+  font-size: 0.9rem;
+  margin-top: 2rem;
+}
+
+/* 반응형 대응 */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2em;
+  }
+
+  button {
+    width: 100%;
+  }
+}

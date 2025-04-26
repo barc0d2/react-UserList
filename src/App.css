@@ -1,0 +1,56 @@
+/* 전체 루트 스타일 */
+#root {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  font-family: 'Pretendard', 'Noto Sans KR', sans-serif;
+  background-color: #f9f9f9;
+  min-height: 100vh;
+}
+
+/* 카드 박스 스타일 */
+.card {
+  padding: 1.5rem;
+  margin: 1rem 0;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+/* 버튼 스타일 */
+button {
+  padding: 0.6em 1.2em;
+  margin: 0.5em;
+  border: none;
+  border-radius: 8px;
+  background-color: #a9a3f5;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #8880e6;
+}
+
+/* 유저 리스트 글자 */
+.user-list {
+  margin-top: 2rem;
+}
+
+/* "페이지를 찾을 수 없습니다" 스타일 */
+.not-found {
+  margin-top: 3rem;
+  font-size: 1.5rem;
+  color: #555;
+}
+
+/* 읽기 전용 안내글 */
+.read-the-docs {
+  color: #888;
+  font-size: 0.9rem;
+  margin-top: 2rem;
+}
